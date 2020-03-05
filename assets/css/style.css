@@ -1,0 +1,95 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-block.block-intro .avatar {
+    background-image:url('../img/unnamed.jpg');
+	width: 60%;
+	height: 550px;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	margin: auto;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    transition: ease 0.3s;
+    cursor: pointer;
+}
+
+.main-block.block-intro .avatar:hover {
+ box-shadow: 0 0 15px black;
+}
+
+
+
+.active {
+    text-shadow: 2px 6px 7px black;
+}
+
+.info p {
+    color: rgb(119, 115, 115);
+}
+
+.more-raboti .item img {
+    width:255px; height: 170px;
+}
+
+.aboutus-page .image {
+    background-image:url('../img/amain.jpg');
+    transition: ease 0.3s ;
+}
+
+.aboutus-page .image:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    box-shadow: 3px 4px 19px black;
+    opacity: 0.9;
+}
+
+
+.gradient {
+	background: linear-gradient(120deg, #7f70f5, #0ea0ff);
+	color: #fff
+}
+
+
+.zoom-on-hover {
+    transition: ease 0.3s;
+}
+
+
+.card.hudozhnik  {
+    cursor: pointer;
+    transition: ease 0.3s;
+}
+.card.hudozhnik:hover {
+    box-shadow: 0 0 15px darkslategray;
+}
+
+
+
+
+@media (min-width:576px) {
+
+	.scale-on-hover:hover {
+		-webkit-transform: scale(1.05);
+		transform: scale(1.05);
+		box-shadow: 0 7px 27px rgba(0, 0, 0, .8)!important
+	}
+	.zoom-on-hover:hover .image {
+		-webkit-transform: scale(1.3);
+		transform: scale(1.3);
+        opacity: .7;
+    }
+    
+    .zoom-on-hover:hover {
+        box-shadow: 0 0px 5px black;
+    }
+
+	.main-block.compact-grid .item .description {
+		opacity: 0
+	}
+	.main-block.compact-grid .item a:hover .description {
+		opacity: 1
+	}
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Картина</title>
+    <!-- Подключаем bootstrap -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <!-- Подключаем файл со стилями -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!-- создание nav бара, классы прилипания к топу и градиент -->
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white gradient">
+        <div class="container"><a class="navbar-brand logo" href="#">Картиная Галерея</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">+</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navbarNav">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">Главная</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="gallery-grid.html">Картины</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="gallery-first-room.html">Продажа</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="about.html">О нас</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="buy.html">Купить</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="page">
+        <section class="main-block block-intro">
+            <!-- avatar основная большая фотография -->
+            <div class="avatar"></div>
+            <div class="container">
+                <div class="intro-text">
+                    <p>Добро пожаловать! Здесь вы можете ознакомиться с произведениями искуства, которые вы можете лицезреть в нашей картинной галереи.</p><a class="btn btn-outline-primary" role="button" href="gallery-grid.html">Подробнее...</a></div>
+            </div>
+        </section>
+        <section class="main-block photography">
+            <div class="container">
+                <!-- no-glutters - удаление отступов -->
+                <div class="row no-gutters">
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/14.jpg"></a></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/7.jpg"></a></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/11.jpg"></a></div>
+                </div>
+            </div>
+        </section>
+        <section class="main-block more-pictures border-bottom">
+            <div class="container">
+                <div class="d-flex justify-content-center align-items-center content">
+                    <h5 class="mt-1">Хотите увидеть больше работ?</h5><a class="btn btn-outline-primary ml-2" role="button" href="gallery-grid.html">Галерея</a></div>
+            </div>
+        </section>
+        <section class="main-block artist">
+            <div class="container">
+                <div class="heading">
+                    <h2>Только самые известные художники</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card hudozhnik border-0">
+                            <div class="card-header bg-transparent border-0"><img src="assets/img/01.jpg" style="width: 200px;height: 250px;"></div>
+                            <div class="card-body">
+                                <h3 class="card-title"><a href="https://en.wikipedia.org/wiki/Salvador_Dal%C3%AD" target="_blank">Salvador Dalí</a><br></h3>
+                                <p class="card-text">Сальвадо́р Дали́ — испанский живописец, график, скульптор, режиссёр и писатель. Один из самых известных представителей сюрреализма.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card hudozhnik border-0">
+                            <div class="card-header bg-transparent border-0"><img src="assets/img/02.jpg" style="width: 240px;height: 250px;"></div>
+                            <div class="card-body">
+                                <h3 class="card-title"><a href="https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir" target="_blank"><strong>Pierre-Auguste Renoir&nbsp;</strong></a><br></h3>
+                                <p class="card-text">Пьер Огю́ст Ренуа́р — французский живописец, график и скульптор, один из представителей&nbsp;<a href="https://www.wikiart.org/ru/artists-by-art-movement/impressionizm" target="_blank">импрессионизма</a>. Известен, в первую очередь, как
+                                    мастер светского портрета, не лишённого сентиментальности.<br></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card hudozhnik border-0">
+                            <div class="card-header bg-transparent border-0"><img src="assets/img/05.jpg" style="width: 180px;height: 250px;"></div>
+                            <div class="card-body">
+                                <h3 class="card-title"><a href="https://en.wikipedia.org/wiki/Edvard_Munch" target="_blank"><strong>Edvard Munch</strong></a><br></h3>
+                                <p class="card-text">Э́двард Мунк — норвежский живописец и график, один из первых представителей экспрессионизма, самым узнаваемым образом которого стала картина «Крик». Его творчество охвачено мотивами смерти, одиночества, но при этом и жаждой
+                                    жизни.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="links"><a href="#">О нас</a><a href="#">Контакты</a><a href="#">Работы</a></div>
+            <div class="social-icons"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-instagram-outline"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a></div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
